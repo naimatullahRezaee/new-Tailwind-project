@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent {
+  display: flex;
+  height: 7rem;
+  margin: 1rem;
+  border-width: 2px;
+  border-color: rgb(17, 34, 39);
+}
+
+.child1 {
+  width: 33.33%;
+  background: rgb(237, 231, 32);
+}
+.child2 {
+  width: 33.33%;
+  background: rgb(93, 196, 45);
+}
+.child3 {
+  width: 33.33%;
+  background: rgb(36, 179, 236);
+}
